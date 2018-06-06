@@ -11,7 +11,6 @@ namespace Exercicio3Reforco.Dominio
         public Sala Sala { get; set; }
         public Funcionario Funcionario {get;set;}
         public DateTime DataAlocacao { get; set; }
-        public string Duracao { get; set; }
         public void CriarAlocacao(IList<Alocacao> alocacoes, Sala sala, DateTime Data)
         {
             if(this.VerificarDisponibilidadeSala(alocacoes,sala,Data) == true)

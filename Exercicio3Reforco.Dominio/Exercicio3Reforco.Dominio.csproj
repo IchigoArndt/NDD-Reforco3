@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\IRepositorio.cs" />
     <Compile Include="Features\Alocacoes\Alocacao.cs" />
     <Compile Include="Base\Entidade.cs" />
+    <Compile Include="Features\Alocacoes\IAlocacaoRepositorio.cs" />
     <Compile Include="Features\Funcionarios\Funcionario.cs" />
     <Compile Include="Features\Salas\Sala.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

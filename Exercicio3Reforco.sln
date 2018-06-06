@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio3Reforco.Infra.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio3Reforco.Aplicacao", "Exercicio3Reforco.Aplicacao\Exercicio3Reforco.Aplicacao.csproj", "{55057ECF-11D0-4276-AEDF-4819F3E5D3D2}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TBExercicio3", "TBExercicio3\TBExercicio3.sqlproj", "{DB4938AB-BEFF-4642-ADC5-068C103FE9FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,12 @@ Global
 		{55057ECF-11D0-4276-AEDF-4819F3E5D3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55057ECF-11D0-4276-AEDF-4819F3E5D3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55057ECF-11D0-4276-AEDF-4819F3E5D3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +60,7 @@ Global
 		{93E9BAB0-95E3-4AD9-852A-1CE8DACAB926} = {CCDBC217-7EB3-4338-BC82-375A9769C07C}
 		{7227632A-E284-4CFE-B1A3-17CB613B4319} = {CCDBC217-7EB3-4338-BC82-375A9769C07C}
 		{55057ECF-11D0-4276-AEDF-4819F3E5D3D2} = {2BC4F59E-4C4F-4F2C-B390-472A7DA8D0DD}
+		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF} = {DBB627D3-18C0-429F-9474-35E2686E0A9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A68A2AC-B1DE-4B1A-9691-F73DB00AFF05}
