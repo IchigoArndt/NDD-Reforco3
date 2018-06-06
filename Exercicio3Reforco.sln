@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDD-Reforco3.Dominio.Teste"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDD-Reforco3.Comum", "NDD-Reforco3.Comum\NDD-Reforco3.Comum.csproj", "{A7F84589-D37C-4D49-A401-C1B70853199F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDD-Reforco3.Aplicacao.Teste", "NDD-Reforco3.Aplicacao.Teste\NDD-Reforco3.Aplicacao.Teste.csproj", "{2EE97BE2-DD52-409E-9A96-D40F8130BF16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A7F84589-D37C-4D49-A401-C1B70853199F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7F84589-D37C-4D49-A401-C1B70853199F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7F84589-D37C-4D49-A401-C1B70853199F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE97BE2-DD52-409E-9A96-D40F8130BF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE97BE2-DD52-409E-9A96-D40F8130BF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE97BE2-DD52-409E-9A96-D40F8130BF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE97BE2-DD52-409E-9A96-D40F8130BF16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{DB4938AB-BEFF-4642-ADC5-068C103FE9FF} = {DBB627D3-18C0-429F-9474-35E2686E0A9A}
 		{8E621502-24AF-4574-8372-83111A2CFA9D} = {B2D494BD-AD66-4722-96E8-D15EE01BF228}
 		{A7F84589-D37C-4D49-A401-C1B70853199F} = {B2D494BD-AD66-4722-96E8-D15EE01BF228}
+		{2EE97BE2-DD52-409E-9A96-D40F8130BF16} = {B2D494BD-AD66-4722-96E8-D15EE01BF228}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A68A2AC-B1DE-4B1A-9691-F73DB00AFF05}

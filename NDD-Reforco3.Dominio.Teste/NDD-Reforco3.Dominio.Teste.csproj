@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="Features\Alocacoes\AlocacaoDominioTeste.cs" />
     <Compile Include="Features\Funcionarios\FuncionarioDominioTeste.cs" />
+    <Compile Include="Features\Sala\SalaDominioTeste.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

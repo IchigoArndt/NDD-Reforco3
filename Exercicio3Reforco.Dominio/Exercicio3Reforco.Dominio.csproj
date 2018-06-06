@@ -51,7 +51,8 @@
     <Compile Include="Features\Alocacoes\IAlocacaoRepositorio.cs" />
     <Compile Include="Features\Funcionarios\Funcionario.cs" />
     <Compile Include="Features\Funcionarios\RamalException.cs" />
-    <Compile Include="Features\Funcionarios\StringVaziaOuNulaException.cs" />
+    <Compile Include="Exceptions\StringVaziaOuNulaException.cs" />
+    <Compile Include="Features\Salas\QuantidadeLugaresZeradoException.cs" />
     <Compile Include="Features\Salas\Sala.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
