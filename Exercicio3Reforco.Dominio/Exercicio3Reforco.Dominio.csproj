@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Exercicio3Reforco.Dominio</RootNamespace>
     <AssemblyName>Exercicio3Reforco.Dominio</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,10 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\IRepositorio.cs" />
+    <Compile Include="Exceptions\BusinessException.cs" />
+    <Compile Include="Exceptions\IdentifierUndefinedException.cs" />
+    <Compile Include="Exceptions\UnsupportedOperationException.cs" />
     <Compile Include="Features\Alocacoes\Alocacao.cs" />
     <Compile Include="Base\Entidade.cs" />
+    <Compile Include="Features\Alocacoes\DataInicalMaiorQueDataFinalException.cs" />
     <Compile Include="Features\Alocacoes\IAlocacaoRepositorio.cs" />
     <Compile Include="Features\Funcionarios\Funcionario.cs" />
+    <Compile Include="Features\Funcionarios\RamalException.cs" />
+    <Compile Include="Features\Funcionarios\StringVaziaOuNulaException.cs" />
     <Compile Include="Features\Salas\Sala.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

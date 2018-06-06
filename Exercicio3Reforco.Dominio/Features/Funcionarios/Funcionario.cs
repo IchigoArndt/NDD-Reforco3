@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Exercicio3Reforco.Dominio.Features.Funcionarios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,15 +17,15 @@ namespace Exercicio3Reforco.Dominio
         {
             if(string.IsNullOrEmpty(NomeFuncionario))
             {
-
+                throw new StringVaziaOuNulaException();
             }
             if(string.IsNullOrEmpty(Cargo))
             {
-
+                throw new StringVaziaOuNulaException();
             }
             if(Ramal == 0)
             {
-
+                throw new RamalException();
             }
         }
     }

@@ -10,8 +10,6 @@ namespace Exercicio3Reforco.Dominio
     {
         public string nomeSala { get; set; }
         public int QuantidadeLugares { get; set; }
-        public bool Situacao { get; set; }
-
         public override void Validar()
         {
             throw new NotImplementedException();
